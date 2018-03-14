@@ -1,5 +1,7 @@
 /*This is the first file*/
 .logon NODEID/dbc,dbc ;
 sel * from dbc.dbcinfo ;
+/*Adding another select query to file1.bteq*/
+select * from dbc.dbc.info order by 1 ;
 .logoff;
 .quit;
