@@ -1,0 +1,5 @@
+/*This is the first file*/
+.logon NODEID/dbc,dbc ;
+sel * from dbc.dbcinfo ;
+.logoff;
+.quit;
